@@ -65,13 +65,3 @@ void Timer::updateDelay() {
     this->isTopGamespeed = true;
   }
 }
-
-/* 
-void Timer::updateDelay() {
-  if(this->blinkDelay >= 300) {
-    this->blinkDelay = this->blinkDelay - (unsigned long) 50;
-  } else {
-    this->isTopGamespeed = true;
-  }
-}
-*/
